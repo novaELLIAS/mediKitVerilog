@@ -1,0 +1,117 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'clock'
+Slack : -30.407
+TNS   : -1725.839
+
+Type  : Setup 'main:b2v_inst14|cur_state.0000_2957'
+Slack : -23.614
+TNS   : -1615.646
+
+Type  : Setup 'main:b2v_inst14|cnt_b0[0]'
+Slack : -20.627
+TNS   : -396.534
+
+Type  : Setup 'freqDiv_250:b2v_inst28|clktmp'
+Slack : -13.937
+TNS   : -136.005
+
+Type  : Setup 'key_row[0]'
+Slack : -4.524
+TNS   : -24.317
+
+Type  : Setup 'freqDiv_125:b2v_inst29|clktmp'
+Slack : -1.507
+TNS   : -1.507
+
+Type  : Setup 'freqDiv_500:b2v_inst26|clktmp'
+Slack : -1.240
+TNS   : -1.240
+
+Type  : Hold 'main:b2v_inst14|cur_state.0000_2957'
+Slack : -17.843
+TNS   : -516.086
+
+Type  : Hold 'clock'
+Slack : -11.906
+TNS   : -325.744
+
+Type  : Hold 'main:b2v_inst14|cnt_b0[0]'
+Slack : -10.781
+TNS   : -92.893
+
+Type  : Hold 'freqDiv_250:b2v_inst28|clktmp'
+Slack : -3.301
+TNS   : -3.301
+
+Type  : Hold 'key_row[0]'
+Slack : -2.358
+TNS   : -14.881
+
+Type  : Hold 'freqDiv_500:b2v_inst26|clktmp'
+Slack : 1.686
+TNS   : 0.000
+
+Type  : Hold 'freqDiv_125:b2v_inst29|clktmp'
+Slack : 1.953
+TNS   : 0.000
+
+Type  : Recovery 'key_row[0]'
+Slack : -19.489
+TNS   : -266.101
+
+Type  : Recovery 'main:b2v_inst14|cur_state.0000_2957'
+Slack : -17.089
+TNS   : -131.771
+
+Type  : Recovery 'clock'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Removal 'main:b2v_inst14|cur_state.0000_2957'
+Slack : -17.685
+TNS   : -69.318
+
+Type  : Removal 'clock'
+Slack : -3.184
+TNS   : -7.781
+
+Type  : Removal 'key_row[0]'
+Slack : -3.112
+TNS   : -36.910
+
+Type  : Minimum Pulse Width 'main:b2v_inst14|cur_state.0000_2957'
+Slack : -10.965
+TNS   : -918.858
+
+Type  : Minimum Pulse Width 'main:b2v_inst14|cnt_b0[0]'
+Slack : -8.162
+TNS   : -612.268
+
+Type  : Minimum Pulse Width 'clock'
+Slack : -7.389
+TNS   : -424.791
+
+Type  : Minimum Pulse Width 'key_row[0]'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'freqDiv_125:b2v_inst29|clktmp'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'freqDiv_20:b2v_inst4|clktmp'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'freqDiv_250:b2v_inst28|clktmp'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'freqDiv_500:b2v_inst26|clktmp'
+Slack : 0.234
+TNS   : 0.000
+
+------------------------------------------------------------

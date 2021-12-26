@@ -1,0 +1,26 @@
+
+State Machine - |mediKitVerilog|numKeyAndSegDriver:b2v_inst34|key_c0
+Name key_c0.0111 key_c0.1011 key_c0.1101 key_c0.1110 
+key_c0.0111 0 0 0 0 
+key_c0.1011 1 1 0 0 
+key_c0.1101 1 0 1 0 
+key_c0.1110 1 0 0 1 
+
+State Machine - |mediKitVerilog|LEDdriver:b2v_inst32|state
+Name state.all_state_s15 state.all_state_s14 state.all_state_s13 state.all_state_s12 state.all_state_s11 state.all_state_s10 state.all_state_s9 state.all_state_s8 state.all_state_s7 state.all_state_s6 state.all_state_s5 state.all_state_s4 state.all_state_s3 state.all_state_s2 state.all_state_s1 state.all_state_s0 
+state.all_state_s0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.all_state_s1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.all_state_s2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.all_state_s3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.all_state_s4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.all_state_s5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.all_state_s6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.all_state_s7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.all_state_s8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.all_state_s9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.all_state_s10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.all_state_s11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.all_state_s12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.all_state_s13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.all_state_s14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.all_state_s15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
