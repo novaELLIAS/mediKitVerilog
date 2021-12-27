@@ -2,116 +2,76 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Setup 'main:b2v_inst14|cur_state.0110_2858'
+Slack : -21.797
+TNS   : -559.561
+
+Type  : Setup 'main:b2v_inst14|cur_state.0000_3092'
+Slack : -20.905
+TNS   : -417.402
+
 Type  : Setup 'clock'
-Slack : -30.407
-TNS   : -1725.839
-
-Type  : Setup 'main:b2v_inst14|cur_state.0000_2957'
-Slack : -23.614
-TNS   : -1615.646
-
-Type  : Setup 'main:b2v_inst14|cnt_b0[0]'
-Slack : -20.627
-TNS   : -396.534
-
-Type  : Setup 'freqDiv_250:b2v_inst28|clktmp'
-Slack : -13.937
-TNS   : -136.005
+Slack : -6.032
+TNS   : -127.904
 
 Type  : Setup 'key_row[0]'
-Slack : -4.524
-TNS   : -24.317
+Slack : -4.547
+TNS   : -14.862
 
-Type  : Setup 'freqDiv_125:b2v_inst29|clktmp'
-Slack : -1.507
-TNS   : -1.507
+Type  : Hold 'main:b2v_inst14|cur_state.0000_3092'
+Slack : -50.452
+TNS   : -1509.572
 
-Type  : Setup 'freqDiv_500:b2v_inst26|clktmp'
-Slack : -1.240
-TNS   : -1.240
-
-Type  : Hold 'main:b2v_inst14|cur_state.0000_2957'
-Slack : -17.843
-TNS   : -516.086
+Type  : Hold 'main:b2v_inst14|cur_state.0110_2858'
+Slack : -44.758
+TNS   : -1440.180
 
 Type  : Hold 'clock'
-Slack : -11.906
-TNS   : -325.744
-
-Type  : Hold 'main:b2v_inst14|cnt_b0[0]'
-Slack : -10.781
-TNS   : -92.893
-
-Type  : Hold 'freqDiv_250:b2v_inst28|clktmp'
-Slack : -3.301
-TNS   : -3.301
+Slack : -6.756
+TNS   : -151.766
 
 Type  : Hold 'key_row[0]'
-Slack : -2.358
-TNS   : -14.881
-
-Type  : Hold 'freqDiv_500:b2v_inst26|clktmp'
-Slack : 1.686
+Slack : 0.946
 TNS   : 0.000
 
-Type  : Hold 'freqDiv_125:b2v_inst29|clktmp'
-Slack : 1.953
-TNS   : 0.000
+Type  : Recovery 'main:b2v_inst14|cur_state.0110_2858'
+Slack : -8.489
+TNS   : -47.319
+
+Type  : Recovery 'main:b2v_inst14|cur_state.0000_3092'
+Slack : -7.690
+TNS   : -42.525
 
 Type  : Recovery 'key_row[0]'
-Slack : -19.489
-TNS   : -266.101
+Slack : -5.623
+TNS   : -66.394
 
-Type  : Recovery 'main:b2v_inst14|cur_state.0000_2957'
-Slack : -17.089
-TNS   : -131.771
+Type  : Removal 'main:b2v_inst14|cur_state.0000_3092'
+Slack : -52.998
+TNS   : -165.970
 
-Type  : Recovery 'clock'
-Slack : 0.154
-TNS   : 0.000
-
-Type  : Removal 'main:b2v_inst14|cur_state.0000_2957'
-Slack : -17.685
-TNS   : -69.318
-
-Type  : Removal 'clock'
-Slack : -3.184
-TNS   : -7.781
+Type  : Removal 'main:b2v_inst14|cur_state.0110_2858'
+Slack : -46.822
+TNS   : -142.742
 
 Type  : Removal 'key_row[0]'
-Slack : -3.112
-TNS   : -36.910
-
-Type  : Minimum Pulse Width 'main:b2v_inst14|cur_state.0000_2957'
-Slack : -10.965
-TNS   : -918.858
-
-Type  : Minimum Pulse Width 'main:b2v_inst14|cnt_b0[0]'
-Slack : -8.162
-TNS   : -612.268
+Slack : -5.508
+TNS   : -75.102
 
 Type  : Minimum Pulse Width 'clock'
-Slack : -7.389
-TNS   : -424.791
+Slack : -2.289
+TNS   : -2.289
 
 Type  : Minimum Pulse Width 'key_row[0]'
 Slack : -2.289
 TNS   : -2.289
 
-Type  : Minimum Pulse Width 'freqDiv_125:b2v_inst29|clktmp'
-Slack : 0.234
-TNS   : 0.000
+Type  : Minimum Pulse Width 'main:b2v_inst14|cur_state.0000_3092'
+Slack : -1.544
+TNS   : -46.320
 
-Type  : Minimum Pulse Width 'freqDiv_20:b2v_inst4|clktmp'
-Slack : 0.234
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'freqDiv_250:b2v_inst28|clktmp'
-Slack : 0.234
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'freqDiv_500:b2v_inst26|clktmp'
-Slack : 0.234
-TNS   : 0.000
+Type  : Minimum Pulse Width 'main:b2v_inst14|cur_state.0110_2858'
+Slack : -1.447
+TNS   : -43.410
 
 ------------------------------------------------------------

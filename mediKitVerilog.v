@@ -94,7 +94,7 @@ wire	[6:0] SYNTHESIZED_WIRE_47;
 
 
 
-keyInput	b2v_inst(
+keyinput	b2v_inst(
 	.clk(clock),
 	.clkt(SYNTHESIZED_WIRE_0),
 	.btn0(btn0),

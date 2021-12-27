@@ -1,4 +1,4 @@
-Warning (10268): Verilog HDL information at numkeyandsegdriver.v(47): always construct contains both blocking and non-blocking assignments File: D:/works/FPGA/mediKitVerilog/numkeyandsegdriver.v Line: 47
-Warning (10268): Verilog HDL information at numkeyandsegdriver.v(238): always construct contains both blocking and non-blocking assignments File: D:/works/FPGA/mediKitVerilog/numkeyandsegdriver.v Line: 238
-Warning (10268): Verilog HDL information at lcd1602driver.v(43): always construct contains both blocking and non-blocking assignments File: D:/works/FPGA/mediKitVerilog/lcd1602driver.v Line: 43
-Warning (10268): Verilog HDL information at buzzerdriver.v(24): always construct contains both blocking and non-blocking assignments File: D:/works/FPGA/mediKitVerilog/buzzerdriver.v Line: 24
+Warning (10268): Verilog HDL information at numkeyandsegdriver.v(61): always construct contains both blocking and non-blocking assignments File: D:/works/FPGA/mediKitVerilog/numkeyandsegdriver.v Line: 61
+Warning (10268): Verilog HDL information at numkeyandsegdriver.v(252): always construct contains both blocking and non-blocking assignments File: D:/works/FPGA/mediKitVerilog/numkeyandsegdriver.v Line: 252
+Warning (10268): Verilog HDL information at lcd1602driver.v(57): always construct contains both blocking and non-blocking assignments File: D:/works/FPGA/mediKitVerilog/lcd1602driver.v Line: 57
+Warning (10268): Verilog HDL information at buzzerdriver.v(38): always construct contains both blocking and non-blocking assignments File: D:/works/FPGA/mediKitVerilog/buzzerdriver.v Line: 38
