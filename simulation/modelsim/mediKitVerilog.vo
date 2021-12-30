@@ -17,7 +17,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
 
-// DATE "12/27/2021 23:59:14"
+// DATE "12/31/2021 02:35:38"
 
 // 
 // Device: Altera EPM1270T144C5 Package TQFP144
@@ -725,33 +725,33 @@ wire \b2v_inst34|Mux15~0_combout ;
 wire \b2v_inst34|Selector36~1_combout ;
 wire \b2v_inst34|Selector184~3_combout ;
 wire \b2v_inst34|Selector184~6_combout ;
-wire [6:0] \b2v_inst34|nums_temp ;
-wire [3:0] \b2v_inst34|Mod1|auto_generated|divider|divider|add_sub_3|add_sub_cella ;
-wire [3:0] \key_row~combout ;
 wire [3:0] \b2v_inst34|Mod5|auto_generated|divider|divider|add_sub_3|add_sub_cella ;
-wire [6:0] \b2v_inst34|seg_tempna ;
+wire [6:0] \b2v_inst34|numb_temp ;
+wire [7:0] \b2v_inst30|col_r ;
+wire [3:0] \b2v_inst34|Mod1|auto_generated|divider|divider|add_sub_3|add_sub_cella ;
+wire [6:0] \b2v_inst34|seg_temp8 ;
 wire [3:0] \b2v_inst34|Mod0|auto_generated|divider|divider|add_sub_3|add_sub_cella ;
 wire [4:0] \b2v_inst34|Mod5|auto_generated|divider|divider|add_sub_4|add_sub_cella ;
 wire [4:0] \b2v_inst34|Mod1|auto_generated|divider|divider|add_sub_4|add_sub_cella ;
 wire [4:0] \b2v_inst34|Mod0|auto_generated|divider|divider|add_sub_4|add_sub_cella ;
-wire [6:0] \b2v_inst34|numb_temp ;
-wire [7:0] \b2v_inst30|col_r ;
 wire [4:0] \b2v_inst34|Mod0|auto_generated|divider|divider|add_sub_5|add_sub_cella ;
-wire [4:0] \b2v_inst14|cnt_u1 ;
+wire [6:0] \b2v_inst34|seg_temp2 ;
 wire [3:0] \b2v_inst34|Div1|auto_generated|divider|divider|add_sub_3|add_sub_cella ;
+wire [6:0] \b2v_inst34|nums_temp ;
+wire [3:0] \key_row~combout ;
 wire [3:0] \b2v_inst34|Div3|auto_generated|divider|divider|add_sub_3|add_sub_cella ;
 wire [7:0] \b2v_inst30|col_g ;
 wire [7:0] \b2v_inst35|lcd_data ;
 wire [6:0] \b2v_inst34|seg ;
+wire [6:0] \b2v_inst34|seg_tempna ;
 wire [6:0] \b2v_inst34|seg_temp7 ;
 wire [4:0] \b2v_inst14|cnt_u2 ;
 wire [6:0] \b2v_inst34|seg_temp5 ;
 wire [6:0] \b2v_inst34|seg_temp1 ;
 wire [6:0] \b2v_inst34|seg_tempnb ;
-wire [6:0] \b2v_inst34|seg_temp8 ;
 wire [6:0] \b2v_inst34|seg_temp6 ;
-wire [6:0] \b2v_inst34|seg_temp2 ;
 wire [5:0] \b2v_inst34|sel60 ;
+wire [4:0] \b2v_inst14|cnt_u1 ;
 
 
 // Location: PIN_18,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default

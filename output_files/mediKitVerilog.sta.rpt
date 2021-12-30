@@ -1,5 +1,5 @@
 Timing Analyzer report for mediKitVerilog
-Mon Dec 27 23:59:12 2021
+Fri Dec 31 02:35:36 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -93,7 +93,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.2%      ;
+;     Processor 2            ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -1599,7 +1599,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Mon Dec 27 23:59:09 2021
+    Info: Processing started: Fri Dec 31 02:35:34 2021
 Info: Command: quartus_sta mediKitVerilog -c mediKitVerilog
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -1616,10 +1616,10 @@ Info (332105): Deriving Clocks
     Info (332105): create_clock -period 1.000 -name key_row[0] key_row[0]
     Info (332105): create_clock -period 1.000 -name clock clock
     Info (332105): create_clock -period 1.000 -name main:b2v_inst14|cur_state.0110_2858 main:b2v_inst14|cur_state.0110_2858
-Warning (332125): Found combinational loop of 2 nodes File: D:/works/FPGA/mediKitVerilog/freqdiv_1000.v Line: 24
+Warning (332125): Found combinational loop of 2 nodes File: D:/works/FPGA/mediKitVerilog/freqdiv_1000.v Line: 9
     Warning (332126): Node "b2v_inst23|clktmp~0|combout"
     Warning (332126): Node "b2v_inst23|clktmp~0|datad"
-Warning (332125): Found combinational loop of 75 nodes File: D:/works/FPGA/mediKitVerilog/freqdiv_1000.v Line: 27
+Warning (332125): Found combinational loop of 75 nodes File: D:/works/FPGA/mediKitVerilog/freqdiv_1000.v Line: 12
     Warning (332126): Node "b2v_inst23|Equal0~2|combout"
     Warning (332126): Node "b2v_inst23|Add0~36|datab"
     Warning (332126): Node "b2v_inst23|Add0~36|cout1"
@@ -1695,10 +1695,10 @@ Warning (332125): Found combinational loop of 75 nodes File: D:/works/FPGA/mediK
     Warning (332126): Node "b2v_inst23|Equal0~2|dataa"
     Warning (332126): Node "b2v_inst23|Add0~1|dataa"
     Warning (332126): Node "b2v_inst23|tmp[1]~9|datad"
-Warning (332125): Found combinational loop of 2 nodes File: D:/works/FPGA/mediKitVerilog/numkeyandsegdriver.v Line: 82
+Warning (332125): Found combinational loop of 2 nodes File: D:/works/FPGA/mediKitVerilog/numkeyandsegdriver.v Line: 68
     Warning (332126): Node "b2v_inst34|Add0~0|combout"
     Warning (332126): Node "b2v_inst34|Add0~0|datac"
-Warning (332125): Found combinational loop of 26 nodes File: D:/works/FPGA/mediKitVerilog/main.v Line: 45
+Warning (332125): Found combinational loop of 26 nodes File: D:/works/FPGA/mediKitVerilog/main.v Line: 30
     Warning (332126): Node "b2v_inst14|cnt_b0[0]~3|combout"
     Warning (332126): Node "b2v_inst14|Add0~2|datad"
     Warning (332126): Node "b2v_inst14|Add0~2|combout"
@@ -1725,7 +1725,7 @@ Warning (332125): Found combinational loop of 26 nodes File: D:/works/FPGA/mediK
     Warning (332126): Node "b2v_inst14|Add0~3|datad"
     Warning (332126): Node "b2v_inst14|Equal0~0|datad"
     Warning (332126): Node "b2v_inst14|cnt_b0[0]~3|datad"
-Warning (332125): Found combinational loop of 54 nodes File: D:/works/FPGA/mediKitVerilog/lcd1602driver.v Line: 66
+Warning (332125): Found combinational loop of 54 nodes File: D:/works/FPGA/mediKitVerilog/lcd1602driver.v Line: 52
     Warning (332126): Node "b2v_inst35|Add0~22|combout"
     Warning (332126): Node "b2v_inst35|xhdl0.cnt[3]~8|datac"
     Warning (332126): Node "b2v_inst35|xhdl0.cnt[3]~8|combout"
@@ -1780,10 +1780,10 @@ Warning (332125): Found combinational loop of 54 nodes File: D:/works/FPGA/mediK
     Warning (332126): Node "b2v_inst35|xhdl0.cnt[0]~6|datad"
     Warning (332126): Node "b2v_inst35|xhdl0.cnt[5]~5|datad"
     Warning (332126): Node "b2v_inst35|Add0~22|datab"
-Warning (332125): Found combinational loop of 2 nodes File: D:/works/FPGA/mediKitVerilog/latticedriver.v Line: 43
+Warning (332125): Found combinational loop of 2 nodes File: D:/works/FPGA/mediKitVerilog/latticedriver.v Line: 28
     Warning (332126): Node "b2v_inst30|Add0~4|combout"
     Warning (332126): Node "b2v_inst30|Add0~4|datac"
-Warning (332125): Found combinational loop of 2 nodes File: D:/works/FPGA/mediKitVerilog/latticedriver.v Line: 43
+Warning (332125): Found combinational loop of 2 nodes File: D:/works/FPGA/mediKitVerilog/latticedriver.v Line: 28
     Warning (332126): Node "b2v_inst30|Add0~3|combout"
     Warning (332126): Node "b2v_inst30|Add0~3|datac"
 Warning (332191): Clock target main:b2v_inst14|cur_state.0000_3092 of clock main:b2v_inst14|cur_state.0000_3092 is fed by another target of the same clock.
@@ -1828,8 +1828,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 175 warnings
     Info: Peak virtual memory: 4682 megabytes
-    Info: Processing ended: Mon Dec 27 23:59:12 2021
-    Info: Elapsed time: 00:00:03
+    Info: Processing ended: Fri Dec 31 02:35:36 2021
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
 
